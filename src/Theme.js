@@ -29,6 +29,10 @@ function Theme({children}) {
                 Tabs: {
                     colorPrimary: '#F3C623',
                     colorPrimaryHover: '#F3C623'
+                },
+                Pagination: {
+                    colorPrimary: '#F3C623',
+                    colorPrimaryHover: '#F3C623'
                 }
             }
         }}

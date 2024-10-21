@@ -5,7 +5,7 @@ import '../assets/styles/pages/profile-page.scss'
 // component
 import {CustomeModal} from '../components/common'
 // features
-import {FormProfile} from '../features'
+import {FormProfile,MyRecipeContent} from '../features'
 // hooks
 import useProfile from '../hooks/useProfile'
 
@@ -56,7 +56,7 @@ function Profile() {
       </div>
       <Tabs defaultActiveKey='1' centered>
         <TabPane key='1' tab={<div className='tab-pane'>My recipe</div>}>
-            <Title level={3}>MY RECIPE</Title>
+            <MyRecipeContent/>
         </TabPane>
         <TabPane key='2' tab={<div className='tab-pane'>Saved recipe</div>}>
             <Title level={3}>SAVED RECIPE</Title>
