@@ -1,0 +1,48 @@
+.app-header-container{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #F5F7F8;
+    z-index: 1;
+    .menu{
+        flex: 1;
+        min-width: 0;
+        background-color: #F5F7F8;
+    }
+    .menu .ant-menu-item {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .menu .ant-menu-item:hover{
+        color: #cca61d;
+        background-color: transparent;
+    }
+    .menu .ant-menu-item::after{
+        border-bottom: none !important;
+        box-shadow: none !important;
+    }
+    .menu .ant-menu-item-selected{
+        border-bottom: none !important;
+        box-shadow: none !important;
+        background-color: transparent;
+        color: #F3C623;
+    }
+    .menu .ant-menu-item-selected::after {
+        border-bottom: none !important;
+        box-shadow: none !important;
+    }
+    .avatar{
+        background-color: #F3C623;
+        cursor: pointer;
+    }
+}
+.app-header-container .ant-menu-horizontal {
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
+  
+.app-header-container .ant-menu-horizontal .ant-menu-item:hover {
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
